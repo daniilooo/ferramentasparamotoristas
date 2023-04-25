@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de custo por km rodado</title>
+    <link rel="Stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados de consumo</legend>
+            <label for="consumoGasolina">Consumon na gasolina</label>
+            <input type="number" id="consumoGasolina" name="consumoGasolina" class="consumo">
+            <label for="consumoEtanol">Consumon no Etanol</label>
+            <input type="number" id="consumoEtanol" name="consumoEtanol" class="consumo">
+        </fieldset>
+        <fieldset>
+            <legend>Dados de valores</legend>
+            <label for="valorGasolina">Valor da gasolina</label>
+            <input type="number" id="valorGasolina" name="valorGasolina" class="valores">
+            <label for="valorEtanol">Valor do etanol</label>
+            <input type="number" id="valorEtanol" name="valorEtanol" class="consumo">
+        </fieldset>
+        <button id="calcular" onclick="calcularCustoPorKm()">Calcular o custo por km</button>
+    </form>
+    <div id="resultado"> </div>
+
+</body>
+<script src="src/caluloDecustoPorKM.js"></script>
+</html>

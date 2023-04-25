@@ -1,0 +1,38 @@
+body {
+    margin: 15px;
+    padding: 0px;
+    background-color: rgb(230, 228, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;    
+}
+
+input[type=number] {
+    margin: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: mediumblue;
+    color: aliceblue;
+}
+
+#resultado {
+    border: 3px solid #FFF;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}

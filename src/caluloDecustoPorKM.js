@@ -17,6 +17,6 @@ function calcularCustoPorKm(){
     
 
     let newResultado = document.getElementById('resultado');
-    newResultado.innerHTML += `O rendimento do seu carro na gasolina é ${rendimentoNagasolina} L/Km</br> O rendimento do seu carro no etanol é ${rendimentoNoEtanol} L/Km</br> O seu custo por Km utilizando Gasolina é ${custoNagasolina} R$/Km</br> O seu custo por km utilizando Etanol é ${custoNoEtanol} R$/km`;
+    newResultado.innerHTML = `O consumo do seu carro na gasolina é ${rendimentoNagasolina} L/Km</br> O consumo do seu carro no etanol é ${rendimentoNoEtanol} L/Km</br> O seu custo por Km utilizando Gasolina é ${custoNagasolina} R$/Km</br> O seu custo por km utilizando Etanol é ${custoNoEtanol} R$/km`;
 
 }

@@ -14,7 +14,7 @@ function calcularCustoAlugado(){
     let custoTotal = valorSemana + custoCombSemanal;
 
     let newResultado = document.getElementById('resultado');
-    newResultado.innerHTML = `<li>O base no custo da locação semanal, o custo do Km rodado é ${custoLocadora} R$/Km</li> 
+    newResultado.innerHTML = `<li>Com base no custo da locação semanal, o custo do Km rodado é ${custoLocadora} R$/Km</li> 
     <li>Para rodar os ${kmSemanal} Km da sua franquia o seu custo com combustível vai ser <strong> R$${(custoCombSemanal).toFixed(2)}</strong></li>
     <li>O seu custo semanal total, somando combustível + locação será <strong>R$${(custoTotal).toFixed(2)}</strong></li>` 
 }

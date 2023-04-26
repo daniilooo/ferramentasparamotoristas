@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de custo semanal do carro alugado</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Dados de custo com a locadora</legend>
+                <label>Custo semanal</label>
+                <input type="number" id="valorSemanal" name="valorSemanal" required>
+                <label>Franquia semanal de KM</label>
+                <input type="number" id="kmSemanal" name="kmSemanal" required>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de consumo do carro</legend>
+                <label>Consumo médio - km/L</label>
+                <input type="number" id="consumoMedio" name="consumoMedio">
+            </fieldset>
+            <fieldset>
+                <legend>Dados de custo de combustível</legend>
+                <label>Valor pago no Litro de combustível</label>
+                <input type="number" id="valorCombustivel" name="valorCombustivel">
+            </fieldset>
+            <button id="calcular" onclick="calcularCustoAlugado()">Calcular o custo semanal do carro alugado</button>
+        </form>
+        <div id="campoResultado"> 
+            <fieldset>
+                <legend>Resultado do calculo</legend>
+                <div id="resultado"></div>
+            </fieldset>
+        </div>
+        <p class="centralizado" style="font-size: 10px;">
+            Desenvolvido por Danilo Franco</br>
+            <a href="mailto:engdanilofranco@gmail.com" class="email">engdanilofranco@gmail.com</a>
+        </p>
+    </div>
+</body>
+<script src="src/simuladorDeCustoAluguel.js"></script>
+</html>
